@@ -1,0 +1,27 @@
+{
+    "name": "flow",
+    "version": "0.1.0",
+    "description": "practice of flow",
+    "main": "index.js",
+    "scripts": {
+        "test": "static",
+        "build": "babel src/ -d lib/",
+        "prepublish": "npm run build",
+        "flow": "flow"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git+https://github.com/turunco/flow.git"
+    },
+    "author": "turunco",
+    "license": "ISC",
+    "bugs": {
+        "url": "https://github.com/turunco/flow/issues"
+    },
+    "homepage": "https://github.com/turunco/flow#readme",
+    "devDependencies": {
+        "babel-cli": "^6.24.1",
+        "babel-preset-flow": "^6.23.0",
+        "flow-bin": "^0.46.0"
+    }
+}
